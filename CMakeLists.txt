@@ -12,4 +12,8 @@ add_executable(find_num stupid_games/find_num.cpp)
 
 #add_executable(nDminimization function_minimization/minim_main.cpp)
 
-add_executable(bataille_navale bataille_navale/main.cpp bataille_navale/bataille_navale.cpp)
+#add_executable(bataille_navale bataille_navale/main.cpp bataille_navale/bataille_navale.cpp)
+
+add_executable(battleship battleship/main.cpp battleship/player.cpp)
+
+add_executable(bataille_navale_tableau bataille_navale_tableau/battleship.cpp bataille_navale_tableau/game.cpp)
